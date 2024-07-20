@@ -1,0 +1,13 @@
+<suite name="TestSuite">
+<test name="EmpTest">
+<parameter name="Firstname" value="Doll"></parameter>
+<parameter name="Lirstname" value="Doll2"></parameter>
+<classes>
+<class name="pkg.EmpRegTest"></class>
+
+
+</classes>
+
+</test>
+
+</suite>

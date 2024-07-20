@@ -1,0 +1,11 @@
+<suite name="TestNG Suite">
+<test name="checking inputTC">
+<parameter name="firstname" value="Doll"></parameter>
+<parameter name="larstname" value="Raut"></parameter>
+<claseses>
+<class name="testcases.Check"></class>
+
+</claseses>
+</test>
+
+</suite>

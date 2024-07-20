@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]">
+  <test thread-count="5" name="EmpTest(failed)">
+    <parameter name="Firstname" value="Doll"/>
+    <parameter name="Lirstname" value="Doll2"/>
+    <classes>
+      <class name="pkg.EmpRegTest">
+        <methods>
+          <include name="checkEmp"/>
+        </methods>
+      </class> <!-- pkg.EmpRegTest -->
+    </classes>
+  </test> <!-- EmpTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

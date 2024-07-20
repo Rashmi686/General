@@ -1,0 +1,15 @@
+<suite name="Gmail Suite">
+<test name="Send Mail TestCase">
+
+<classes>
+<class name="testng.testcases.sendMailTest"></class>
+</classes>
+</test>
+<test name="Receive Mail TestCase">
+<classes>
+<class name="testng.testcases.receiveMailTest"></class>
+</classes>
+</test>
+</suite>
+
+
